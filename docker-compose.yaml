@@ -1,4 +1,5 @@
-myapp:
-  image: flask-api
-  ports:
-    - 5000:5000
+services:
+  myapp:
+    build: .
+    ports:
+      - "5000:5000"
