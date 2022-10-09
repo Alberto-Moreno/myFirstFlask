@@ -1,0 +1,4 @@
+myapp:
+  image: flask-api
+  ports:
+    - 5000:5000
